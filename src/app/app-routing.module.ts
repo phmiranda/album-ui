@@ -1,7 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { AlbumComponent } from "./component/pages/album/album.component";
+import { PhotoComponent } from "./component/pages/photo/photo.component";
+
+const routes: Routes = [
+  {
+    path: 'albuns',
+    component: AlbumComponent
+  },
+  {
+    path: 'fotos',
+    component: PhotoComponent
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

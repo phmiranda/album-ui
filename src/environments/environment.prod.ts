@@ -1,8 +1,8 @@
 export const environment = {
-  /* endereços de serviços */
-  apiUrl: 'https://api.album.dominio.com.br',
-  apiSso: 'https://api.sso.dominio.com.br',
-
   /* configuração da aplicação */
   production: true,
+
+  /* endereços de serviços */
+  API_BASE: 'https://api.album.dominio.com.br',
+  API_SSO: 'https://api.sso.dominio.com.br',
 };
