@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { AlbumComponent } from "./album.component";
+import { MenuComponent } from "./menu.component";
+
 
 
 @NgModule({
   declarations: [
-    AlbumComponent
+    MenuComponent
   ],
   imports: [
-    CommonModule,
+    CommonModule
   ]
 })
-export class AlbumModule { }
+export class MenuModule { }
