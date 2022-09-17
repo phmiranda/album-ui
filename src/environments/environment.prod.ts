@@ -1,6 +1,6 @@
 export const environment = {
   /* configuração da aplicação */
-  production: true,
+  production: false,
 
   /* endereços de serviços */
   API_BASE: 'https://api.album.dominio.com.br',

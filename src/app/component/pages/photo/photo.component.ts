@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 import { PhotoService } from "../../../service/photo/photo.service";
 import { Photo } from "../../../interface/photo";

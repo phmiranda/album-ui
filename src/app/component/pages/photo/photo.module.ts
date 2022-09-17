@@ -4,7 +4,6 @@ import { HttpClientModule } from "@angular/common/http";
 
 import { PhotoComponent } from "./photo.component";
 
-
 @NgModule({
   declarations: [
     PhotoComponent
